@@ -1,0 +1,33 @@
+body {
+    background-color: lavender;
+}
+
+/* NAVIGATION */
+
+.navbar-brand img {
+    width: 300px;
+}
+
+/* HUDDLE LOGO IMAGE */
+.huddleTitle {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.huddleLogo img {
+    height: 125px;
+    margin: 10px;
+
+}
+
+.huddleShowcase img {
+    height: 250px;
+    margin: 10px;
+}
+
+/* ACCORDION INFO */
+
+.accordion-item .accordion-button {
+    font-weight: bold;
+}
