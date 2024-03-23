@@ -1,5 +1,18 @@
 body {
     background-color: lavender;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.sectionHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.topicHeading {
+    margin-top: 35px;
 }
 
 /* NAVIGATION */
@@ -9,10 +22,19 @@ body {
 }
 
 /* HUDDLE LOGO IMAGE */
+
+.jumbotron {
+    background-color: white !important;
+}
+
 .huddleTitle {
     display: flex;
     justify-content: space-around;
     margin: 50px;
+}
+
+.huddleLogo {
+    padding: 20px;
 }
 
 .huddleLogo img {
@@ -31,3 +53,37 @@ body {
 .accordion-item .accordion-button {
     font-weight: bold;
 }
+
+
+/* RESEARCH */
+.researchType {
+  margin: 20px;
+}
+
+.rounded-circle-250 {
+    width: 250px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.researchCards {
+    margin: 10px;
+}
+
+/* COMPETITOR ANALYSIS */
+
+.competitorAnalysis {
+    margin: 20px;
+}
+
+.competitorAnalysisBody {
+    margin: 10px;
+}
+
+.competitorAnalysisBody img {
+    width: 250px;
+    margin: 15px;
+}
+
+
