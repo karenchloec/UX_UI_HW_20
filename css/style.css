@@ -39,7 +39,7 @@ body {
 /* HUDDLE LOGO IMAGE */
 
 .jumbotron {
-    background-color: white !important;
+    background-color: white;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -52,6 +52,7 @@ body {
 .huddleShowcase img {
     max-width: 80%;
     height: auto;
+    margin-bottom: 20px;
 }
 
 
@@ -106,17 +107,22 @@ body {
 }
 
 .holder.userPersona {
+    width: 100%;
     display: flex;
-    flex-direction: row-reverse; 
+    flex-direction: column;
     align-items: center;
-    width: 100%;    flex-grow: 1;
-
 }
 
-.holder.userPersona img {
-    width: 300px; 
-    height: auto; 
-    margin-left: 20px; 
+.userPersonaInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userPersonaInfo img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
 }
 
 .annaThompson {
@@ -130,7 +136,14 @@ body {
 }
 
 .name {
-    font-weight: bold;
-    text-decoration: none;
+    font-weight: 600;
     font-size: 22px;
 }
+
+.aboutAnna {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
