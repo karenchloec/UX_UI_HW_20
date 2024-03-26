@@ -25,28 +25,20 @@ body {
 
 .jumbotron {
     background-color: white !important;
-}
-
-.huddleTitle {
-    display: flex;
-    justify-content: space-around;
-    margin: 50px;
-}
-
-.huddleLogo {
-    padding: 20px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .huddleLogo img {
-    height: 125px;
-    margin: 10px;
-
+    max-width: 100%;
+    height: auto;
 }
 
 .huddleShowcase img {
-    height: 250px;
-    margin: 10px;
+    max-width: 80%;
+    height: auto;
 }
+
 
 /* ACCORDION INFO */
 
@@ -60,6 +52,8 @@ body {
   margin: 20px;
 }
 
+
+/* not working idk */
 .rounded-circle-250 {
     width: 250px;
     height: 500px;
@@ -86,4 +80,25 @@ body {
     margin: 15px;
 }
 
+.holder {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
 
+.overview {
+    margin: 20px 10px;
+    font-size: 18px;
+}
+
+/* USER PERSONA */
+
+.userPersona img  {
+    height: auto;
+    max-width: 75%;
+}
+
+.annaThompson {
+    margin: 15px;
+}
