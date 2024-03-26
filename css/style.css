@@ -34,6 +34,7 @@ body {
 
 .navbar-brand img {
     width: 300px;
+    margin-left: 15px;
 }
 
 /* HUDDLE LOGO IMAGE */
@@ -47,12 +48,13 @@ body {
 .huddleLogo img {
     max-width: 100%;
     height: auto;
+    margin: 20px;
 }
 
 .huddleShowcase img {
     max-width: 80%;
     height: auto;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 
@@ -146,4 +148,28 @@ body {
     text-align: center;
 }
 
+/* problem statement */
 
+.problemStatement {
+    margin: 10px 0;
+}
+
+.problemStatement h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* user insight statement */
+
+.userInsightStatement {
+    margin: 10px 0;
+}
+
+.userInsightStatement h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.userInsightStatement p b {
+    font-weight: 500;
+}
