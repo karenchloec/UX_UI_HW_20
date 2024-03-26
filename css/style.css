@@ -15,6 +15,21 @@ body {
     margin-top: 35px;
 }
 
+
+.holder {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.overview {
+    margin: 20px 10px;
+    font-size: 18px;
+}
+
+
 /* NAVIGATION */
 
 .navbar-brand img {
@@ -80,25 +95,42 @@ body {
     margin: 15px;
 }
 
-.holder {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.overview {
-    margin: 20px 10px;
-    font-size: 18px;
-}
 
 /* USER PERSONA */
 
-.userPersona img  {
-    height: auto;
-    max-width: 75%;
+
+.containerUserPersona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.holder.userPersona {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+    width: 100%;    flex-grow: 1;
+
+}
+
+.holder.userPersona img {
+    width: 300px; 
+    height: auto; 
+    margin-left: 20px; 
 }
 
 .annaThompson {
-    margin: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.annaThompson li {
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
 }
