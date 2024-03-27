@@ -29,6 +29,12 @@ body {
     font-size: 18px;
 }
 
+.subHeading {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
 
 /* NAVIGATION */
 
@@ -172,4 +178,39 @@ body {
 
 .userInsightStatement p b {
     font-weight: 500;
+}
+
+/* PROTOTYPE */
+
+.prototype img {
+    width: 90vh;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.prototype {
+    justify-content: center;
+    align-items: center;
+}
+
+.prototype h4 {
+    margin-top: 40px;
+}
+
+.prototype ul {
+    margin: 15px 0;
+}
+
+.lowFiIterations {
+    margin: 25px;
+}
+
+.lowFiIterations li {
+    padding: 3px;
+}
+
+.prototype h3 {
+    font-weight: bold;
+    margin-top: 80px;
 }
